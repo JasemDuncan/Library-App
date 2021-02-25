@@ -45,5 +45,15 @@ body{
     width: 70%;
     height: 30%;
     background: chartreuse;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.resulttable{
+    width: 90%;
+    height: 90%;
+    background-color: darkcyan;
+
+}
+
