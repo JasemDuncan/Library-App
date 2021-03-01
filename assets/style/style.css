@@ -34,13 +34,12 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-color: darkturquoise;
-  width: 100%;
   font-size: 3vw;
   font-weight: 600;
   color: rgb(250, 252, 250);
 }
 
-.btnNewBook{
+.btnNewBook {
   width: 70%;
   height: 5%;
 }
@@ -55,7 +54,6 @@ body {
 }
 
 .form {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
