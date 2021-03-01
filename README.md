@@ -4,7 +4,7 @@
 
 ![Screenshot](./assets/images/libraryApp.png)
 
-### Live Demo [HERE](https://rawcdn.githack.com)
+### Live Demo [HERE](https://raw.githack.com/JasemDuncan/Library-App/feature-branch/index.html)
 
 ## Features 
 
