@@ -55,7 +55,11 @@ function newTdForRowButton(tr) {
 
 function displayForm() {
   const dform = document.getElementById('bookForm');
-  dform.classList.toggle('d-none');
+  if (dform.style.display === 'none') {
+    dform.style.display = 'flex';
+  } else {
+    dform.style.display = 'none';
+  }
 }
 
 function eraseBook(index) {
@@ -109,7 +113,7 @@ function showBooks() {
 }
 
 document.addEventListener('click', (e) => {
-  if (e.target && e.target.id === 'd-form') {
+  if (e.target && e.target.id === 'idNewBook') {
     displayForm();
   } else if (e.target && e.target.id === 'submitForm') {
     insertBookLibraryCollection();
