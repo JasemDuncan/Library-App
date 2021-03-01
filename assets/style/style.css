@@ -33,7 +33,7 @@ body {
   align-items: center;
   background-color: darkturquoise;
   width: 100%;
-  font-size: min(max(70px, 4vw), 40px);
+  font-size: 3vw;
   font-weight: 600;
 }
 
