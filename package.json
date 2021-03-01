@@ -1,0 +1,29 @@
+{
+  "name": "Library-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^13.11.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasemDuncan/Library-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasemDuncan/Library-App/issues"
+  },
+  "homepage": "https://github.com/JasemDuncan/Library-App#readme"
+}

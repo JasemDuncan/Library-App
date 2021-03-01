@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Library App</title>
+        <link rel="stylesheet" href="assets/style/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title"> Library App</div>
+            <button id="idNewBook" class="btnNewBook">NEW BOOK</button>
+
+            <div class="formcontainer">
+                <form id="bookForm" class="form" > 
+                    <label > title</label>
+                    <input id="title" type="text" name="booktitle" class="inputs">
+
+                    <label > author</label>
+                    <input id="author" type="text" name="bookauthor" class="inputs">
+
+                    <label > pages</label>
+                    <input id="pages" type="text" name="bookpages" class="inputs">
+
+                    <label for="read">Check if you read this book</label>
+                    <input id="read" type="checkbox" name="read" class="">
+                    
+                    <input id="submitForm" type="button" value="submit" class="buttons">
+                </form>
+            </div>
+
+            <div class="result">
+                <table id="result-table" class="resulttable">
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Pages</th>
+                        <th>Read</th>
+                        <th>Erase</th>
+                        <th>Update</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <script type="module" src="assets/scripts/main.js"></script>
+    </body>
+</html>
